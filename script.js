@@ -27,6 +27,9 @@ function gameGrid() {
             }
         }
         // Checks if there are 3 in a row
+        // Option 1: Check all 8 different combinations, see if they match as all 'X' or all 'O'
+        // Option 2: Loop through every cell, look at the cells bellow and above it if it exists
+        //           and do the same for diagonal keep going till you find a matching line with all X
 
 
         // Checks if the grid is full
